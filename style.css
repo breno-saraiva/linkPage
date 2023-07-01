@@ -50,6 +50,10 @@ body * {
 
 #profile img {
     width: 112px;
+    height: 112px;
+    object-fit: cover;
+    border: 1px solid var(--stroke-color);
+    border-radius: 50%;
 }
 
 #profile p {
@@ -104,7 +108,7 @@ ul {
     padding: 24px 0px;
 }
 
-ul li a { 
+ul li a {
     padding: 16px 24px;
     display: flex;
     justify-content: center;
@@ -117,6 +121,7 @@ ul li a {
     text-decoration: none;
     font-weight: 500;
     transition: background .2s;
+    gap: 10px;
 }
 
 ul li a:hover {
